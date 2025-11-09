@@ -3,6 +3,7 @@ module.exports = {
   experimental: {
     reactCompiler: true
   },
+  transpilePackages: ['react-wavify'],
   images: {
     loader: 'imgix',
     path: 'https://example.com/myaccount/'
